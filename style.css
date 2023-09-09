@@ -1,0 +1,850 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    height: 64px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-left: 55px;
+    display: grid;
+    grid-template-rows: 90px;
+    grid-template-columns: 80px 90px 60px 80px 70px 70px 70px 70px;
+    grid-gap: 5px;
+}
+
+.box1{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.box2{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.box2:hover{
+    width: 102px;
+    height: 44px;
+    border-radius: 26px;
+    padding: 13px;
+    background-color: #2a2824;
+    text-align: center;
+    margin-left: -13px;
+    margin-top: -1px;
+}
+
+select{
+    outline: none;
+    width: 85px;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+option{
+    background-color: white;
+    color: black;
+    /* outline: none; */
+    /* border: none; */
+}
+
+.box3{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 12px;
+}
+
+.box3:hover{
+    width: 66px;
+    height: 44px;
+    border-radius: 26px;
+    background-color: #2a2824;
+    font-size: 15px;
+    margin-left: -1px;
+}
+
+.box4{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.box4:hover{
+    width: 66px;
+    height: 44px;
+    border-radius: 26px;
+    background-color: #2a2824;
+    text-align: center;
+    font-size: 16px;
+    margin-left: -1px;
+}
+
+.box5{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    margin-left: 560px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.box5:hover{
+    width: 66px;
+    height: 44px;
+    border-radius: 26px;
+    background-color: #2a2824;
+    font-size: 16px;
+    margin-left: -1px;
+    margin-left: 560px;
+}
+
+.box6{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    margin-left: 560px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.box6:hover {
+    width: 67px;
+    height: 44px;
+    border-radius: 26px;
+    background-color: #2a2824;
+    font-size: 16px;
+    margin-left: -1px;
+    margin-left: 560px;
+}
+
+.box7{
+    height: 40px;
+    width: 65px;
+    text-align: center;
+    color: white;
+    margin-left: 560px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.box7:hover {
+    width: 66px;
+    height: 44px;
+    border-radius: 26px;
+    background-color: #2a2824;
+    font-size: 16px;
+    margin-left: -1px;
+    margin-left: 560px;
+}
+
+.box8{
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    margin-left: 560px;
+    padding-top: 12px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 26px;
+    color: black;
+}
+
+.box8:hover {
+    width: 80px;
+    height: 40px;
+    border-radius: 26px;
+    background-color: rgb(192, 190, 190);
+    font-size: 16px;
+    margin-left: -1px;
+    margin-left: 560px;
+    color: black;
+}
+
+
+img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.imagediv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.boxxxx{
+    display: grid;
+    position: absolute;
+    height: 515px;
+    width: 568px;
+    background-color: white;
+    top: 128px;
+    left: 64px;
+    z-index: 4;
+    grid-template-rows: 180px;
+    grid-template-columns: 180px 180px 180px;
+    grid-gap: 8px;
+    
+}
+
+#hr{
+    width: 568px;
+    height: 1px;
+    margin-top: -70px;
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.cube1{
+    height: 100px;
+    width: 188px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.cube2{
+    height: 100px;
+    width: 188px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.cube3{
+    height: 100px;
+    width: 189px;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 25px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.request{
+    width: 540px;
+    font-size: 55px;
+    font-weight: bolder;
+    font-style: inherit;
+    margin-top: -20px;
+    margin-left: -190px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.line{
+    position: relative;
+    border-left: 2px solid black;
+    height: 70px;
+    margin-left: 80px;
+    margin-top: -55px;
+}
+
+.boxA{
+    margin-top: 80px;
+    margin-left: -366px;
+    text-align: center;
+    color: black;
+}
+
+.boxB{
+    margin-top: -15px;
+    margin-left: -130px;
+    color: black;
+    text-align: center;
+}
+
+input{
+    border: none;
+    width: 450px;
+    height: 60px;
+    background-color: rgb(238, 238, 238);
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+
+.blkbx{
+    width: 160px;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -320px;
+    margin-top: 70px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.blkbx:hover{
+    background-color: rgb(48, 47, 47);
+}
+
+.whtbx{
+    width: 180px;
+    height: 55px;
+    background-color: rgb(238, 238, 238);
+    margin-left: 240px;
+    margin-top: -78px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    padding-top: 16px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.whtbx:hover{
+    background-color: rgb(222, 222, 222);
+}
+
+.second{
+    width: 100%;
+    height: 300px;
+    margin-top: -5px;
+}
+
+#image{
+    position: relative;
+}
+
+#div{
+    position: absolute;
+    margin-top: -250px;
+    color: white;
+    padding-left: 60px;
+    line-height: 70px;
+}
+
+.get{
+    position: relative;
+    width: 140px;
+    height: 45px;
+    border: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 6px;
+    margin-top: -100px;
+    margin-left: 60px;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.get:hover{
+    background-color: rgb(255, 227, 227);
+    cursor: pointer;
+}
+
+.third{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 60px;
+    padding-left: 50px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+#ubrrid{
+    padding-right: 500px;
+    font-weight: 600;
+    font-style: inherit;
+    color: rgb(36, 36, 36);
+}
+
+.left2{
+    display: flex;
+    float: left;
+    width: 550px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -450px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#ubrauto{
+    width: 100%;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#ubrtxt{
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.right2{
+    display: flex;
+    float: right;
+    width: 550px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -450px;
+    margin-left: -200px;
+    cursor: pointer;
+}
+
+
+#ubrmoto{
+    width: 100%;
+    padding-left: 50px;
+    font-size: 25px; 
+}
+
+#mototxt{
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.left3{
+    display: flex;
+    float: left;
+    width: 550px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -220px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+#cartimetxt{
+    width: 100%;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#cttxt{
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.right3{
+    display: flex;
+    float: right;
+    width: 550px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: -220px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+#carlocktxt{
+    width: 100%;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+#cltxt{
+    font-size: 18px;
+    color: rgb(47, 47, 47);
+    font-weight: normal;
+    font-style: inherit;
+}
+
+#arrow{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+#forthtxt{
+    padding-left: 50px;
+    font-size: 40px;
+    font-style: inherit;
+    font-weight: 600;
+    color: rgb(42, 41, 41);
+}
+
+.imgprt{
+    padding-left: 60px;
+    padding-top: 30px;
+}
+
+#img2{
+    padding-left: 40px;
+}
+
+#img1txt{
+    padding-left: 60px;
+}
+
+.div{
+    padding-left: 60px;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 20px;
+    color: rgb(51, 51, 51);
+}
+
+#text1{
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.div2{
+    float: right;
+    margin-top: -145px;
+    margin-right: 100px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(51, 51, 51);
+}
+
+#text2{
+    font-weight: normal;
+    font-style: inherit;
+}
+
+span{
+    color: rgb(51, 51, 51);
+}
+
+.fifth{
+    display: flex;
+    padding-top: 150px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.classA{
+    padding-left: 65px;
+}
+
+#textA{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.classB{
+    padding-left: 95px;   
+}
+
+#textB{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.classC{
+    padding-left: 100px;  
+}
+
+#textC{
+    font-size: 18px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+.sixth{
+    height: 400px;
+    background-color: rgb(237, 237, 237);
+    margin-top: 70px;
+}
+
+#six1{
+    font-size: 38px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.sixbox1{
+    display: flex;
+    width: 550px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.sixbox2{
+    display: flex;
+    width: 550px;
+    height: 200px;
+    background-color: white;
+    float: right;
+    margin-right: 60px;
+    margin-top: 40px;
+    padding-top: 5px;
+}
+
+#sixid1{
+   width: 300px; 
+   padding-top: 60px;
+   font-size: 25px;
+}
+
+#sixid11{
+    padding-top: 90px;
+    margin-left: -297px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+#sixid2{
+    width: 300px; 
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+#sixid22{
+    padding-top: 90px;
+    margin-left: -297px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: inherit;
+}
+
+#arrow1{
+    padding-left: 160px;
+    padding-top: 65px;
+    cursor: pointer;
+}
+
+#arrow2{
+    padding-left: 150px;
+    padding-top: 65px;
+    cursor: pointer;
+}
+
+.seventh{
+    height: 230px;
+    width: 100%;
+    background-color: azure;
+}
+
+#drive{
+    float: left;
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 40px;
+    outline: 0;
+    border-bottom: 1px solid black;
+    line-height: 120px;
+}
+
+#ride{
+    float: right;
+    padding-right: 170px;
+    padding-top: 40px;
+    font-size: 40px;
+    outline: 0;
+    border-bottom: 1px solid black;
+    line-height: 120px;
+}
+
+.b2t {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    padding: 2px 15px;
+    border-radius: 50%;
+    margin-left: 1180px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+    border: 1px solid rgb(174, 174, 174);
+    bottom: 30px;
+    right: 20px;
+    transition: all 1ms;
+    opacity: 1;
+}
+
+.b2t:hover{
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+.b2t:hover::after{
+    content: "Back to top";
+    float: left;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    transition: linear;
+    padding-left: 18px;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.eight{
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+#eight1{
+    font-style: inherit;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-top: 90px;
+    cursor: pointer;
+}
+
+#eight2{
+    font-style: inherit;
+    font-weight: normal;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+#eight2:hover{
+    border-bottom: 1px solid white;
+    height: 70px;
+    margin-left: 50px;
+}
+
+.nine{
+    display: flex;
+    height: 320px;
+    background-color: black;
+
+}
+
+.BOX1{
+    width: 250px;
+    height: 330px;
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: -40px;
+}
+
+.BOX2{
+    width: 250px;
+    height: 330px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: -40px;
+}
+
+.BOX3{
+    width: 250px;
+    height: 330px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: -40px;
+}
+
+.BOX4{
+    width: 250px;
+    height: 330px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: -40px;
+}
+
+.ten{
+    height: 350px;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.square1{
+    display: flex;
+    padding-top: 60px;
+}
+
+.sq1{
+    padding-left: 70px;
+}
+
+.sq2{
+    padding-left: 100px;
+}
+
+.square2{
+    display: flex;
+    float: right;
+    padding-right: 100px;
+    margin-top: -20px;
+}
