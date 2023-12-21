@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uber clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,28 +34,28 @@
         <div class="first">
             <div class="imagediv" id="mainimage"><img
                     src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1895,h_965/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png"
-                    alt="Missing Image"  width="100%" height="100%"></div>
+                    alt="Missing Image" width="100%" height="100%"></div>
 
             <div class="boxxxx">
-                <div class="cube1"><button onclick="myride()" ><img id="logo1"
+                <div class="cube1"><button onclick="myride()"><img id="logo1"
                             src="https://www.uber-assets.com/image/upload/v1542252540/assets/6d/87af17-3970-4d01-8936-1b0ba102ea6e/original/car-front-outlined.svg"
                             alt="Missing logo">
                         <h4>Ride</h4>
                     </button>
                 </div>
-                <div class="cube2"><button onclick="mydrive()" ><img id="logo2"
+                <div class="cube2"><button onclick="mydrive()"><img id="logo2"
                             src="https://www.uber-assets.com/image/upload/v1558389718/assets/8e/33c8c0-f7e9-467c-924b-c70232943a47/original/Earn-filled.svg"
                             alt="Missing Logo">
                         <h4>Drive or<br>Deliver</h4>
                     </button>
-                  <h1 id="driver-text-head"></h1>
+                    <h1 id="driver-text-head"></h1>
                 </div>
-                <div class="cube3"><button onclick="myrent()" ><img id="logo3"
+                <div class="cube3"><button onclick="myrent()"><img id="logo3"
                             src="https://www.uber-assets.com/image/upload/v1674075480/assets/27/7a50c1-0782-405e-947c-83a2f4d78137/original/keys_car_filled.svg"
                             alt="Missing Logo">
                         <h4>Rent Your<br>Fleet</h4>
                     </button></div>
-                    <hr id="hr">
+                <hr id="hr">
 
                 <h1 class="request"><b>Request a ride now</b></h1>
                 <div class="boxA"><input type="text"
@@ -242,16 +242,16 @@
         // drive and ddriver
 
         function mydrive() {
-           let ress = document.getElementById('mainimage').innerHTML = "<img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1895,h_1000/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png' width=100% height=100% />"
-           
-           //document.getElementById('driver-text-head').innerText="Get in the driver’s seat and get paid"
+            let ress = document.getElementById('mainimage').innerHTML = "<img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1895,h_1000/v1613521435/assets/bc/0529b6-c37a-416b-9907-2cb44c4c2888/original/Earner_Home_bg_desktop2x.png' width=100% height=100% />"
+
+            //document.getElementById('driver-text-head').innerText="Get in the driver’s seat and get paid"
         }
         // my rent
 
         function myrent() {
             let resss = document.getElementById('mainimage').innerHTML = "<img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1895,h_934/v1677102595/assets/66/2853af-061f-4176-8c6b-f2ddef091599/original/UberIM_002309-%281%29.jpg'  width=100% height=100% />"
 
-}
+        }
 
     </script>
 </body>
